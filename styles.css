@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&Family=Inter:wght@400;500;600&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --bg1: #313966;
     --bg2: #3e528f;
@@ -144,6 +148,8 @@ section {
     column-gap: 2rem; /* Add space between columns */
     padding-left: 0; /* Remove default padding */
     text-align: left; /* Align text to the left */
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .other-styles-list li {
