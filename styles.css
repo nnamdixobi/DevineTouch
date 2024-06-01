@@ -110,6 +110,7 @@ section {
 /* Service */
 #services {
     padding: 60px 0;
+    font-family: "Inter", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
     background: linear-gradient(to right, #1b1f34, rgba(27, 31, 52, 0.5));
 }
@@ -150,12 +151,14 @@ section {
     text-align: left; /* Align text to the left */
     margin-left: 15px;
     margin-right: 15px;
+    font-family: "Inter", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .other-styles-list li {
     font-size: 1.2rem;
     color: #fff; /* Adjust this to your preferred text color */
     margin-bottom: 0.5rem; /* Space between list items */
+    font-family: "Inter", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Footer */
