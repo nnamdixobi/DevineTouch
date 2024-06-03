@@ -149,77 +149,14 @@ section {
     }
 
     #home { 
-        min-height: 100vh;
+        max-height: 100vh;
     }
 
     #home h1 {
         margin-bottom: 5px;
     }
 
-    /* Adjust padding for sections */
-    section {
-        padding-top: 80px; /* Reduce top padding */
-        padding-bottom: 80px; /* Reduce bottom padding */
-    }
-
-    /* Adjust font size and margins for headings */
-    h1 {
-        font-size: 24px; /* Reduce font size */
-        margin-bottom: 20px; /* Reduce bottom margin */
-    }
-
-    h2 {
-        font-size: 20px; /* Reduce font size */
-        margin-bottom: 15px; /* Reduce bottom margin */
-    }
-
-    h3 {
-        font-size: 18px; /* Reduce font size */
-        margin-bottom: 10px; /* Reduce bottom margin */
-    }
-
-    /* Adjust font size and margins for paragraphs */
-    p {
-        font-size: 16px; /* Reduce font size */
-        margin-bottom: 15px; /* Reduce bottom margin */
-    }
-
-    /* Adjust padding for buttons */
-    .btn {
-        padding: 12px 24px; /* Reduce padding */
-    }
-
-    /* Adjust image size */
-    img {
-        max-width: 100%; /* Ensure images don't exceed screen width */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    /* Adjust navbar padding */
-    .navbar {
-        padding-top: 10px; /* Reduce top padding */
-        padding-bottom: 10px; /* Reduce bottom padding */
-    }
-
-    /* Adjust section padding for home */
-
-
-    /* Adjust margins for home content */
-    #home h1 {
-        margin-bottom: 15px; /* Reduce bottom margin */
-    }
-
-    #home p {
-        margin-bottom: 15px; /* Reduce bottom margin */
-    }
-
-    /* Ensure images in home fit within screen width */
-    #home img {
-        width: 100%; /* Adjust image width */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 0; /* Remove border radius */
-    }
-
+    
 
     
 }
