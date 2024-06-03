@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&Family=Inter:wght@400;500;600&display=swap');
 
-html {
-    scroll-behavior: smooth;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -17,6 +20,7 @@ body {
     color: var(--body);
     line-height: 1.8;
     background-color: var(--bg1);
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,12 +64,26 @@ section {
     text-align: center;
 }
 
+
 /* Home */
 #home {
-    background: linear-gradient(to right, #1b1f34, rgba(27, 31, 52, 0.5));
-    min-height: 100vh;
+    background: linear-gradient(to right, #a1a8d4, rgba(27, 31, 52, 0.5));
+    min-height: 90vh;
     background-position: center;
     background-size: cover;
+    
+}
+
+#home .address-link {
+    color: black;
+}
+
+#home .address-link:hover {
+    color: navy;
+}
+
+#home .navy-icon {
+    color: black;
 }
 
 #home h1 {
@@ -73,10 +91,65 @@ section {
 }
 
 #home p {
-    font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
+#home img {
+    border-radius: 10px;
+}
+    
+
+/* BTN */
+.btn {
+    padding: 16px 36px;
+    font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.4s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+    color: var(--body);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #home .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home .col-lg-6, #home .col-md-6 {
+        margin-bottom: 20px;
+    }
+
+    #home img {
+        width: 100%;
+        height: auto;
+        margin-top: 130px;
+        border-radius: 10px;
+    }
+}
+
+
 
 /* BTN */
 .btn {
@@ -112,13 +185,16 @@ section {
     padding: 60px 0;
     font-family: "Inter", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
-    background: linear-gradient(to right, #1b1f34, rgba(27, 31, 52, 0.5));
+    background: linear-gradient(to right, #a1a8d4, rgba(27, 31, 52, 0.5));
 }
 
 .service img {
     width: 100%;
     height: 350px;
     object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
 }
 
 .service {
@@ -126,6 +202,10 @@ section {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    max-width: 100%;
+    
+    
+
 }
 
 .service .content {
