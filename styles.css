@@ -144,13 +144,19 @@ section {
     #home img {
         width: 100%;
         height: auto;
-        margin-top: 130px;
+        margin-top: 20px;
         border-radius: 10px;
     }
 
     #home { 
         min-height: 100vh;
     }
+
+    #home h1 {
+        margin-bottom: 5px;
+    }
+
+    
 }
 
 
