@@ -156,6 +156,71 @@ section {
         margin-bottom: 5px;
     }
 
+    /* Adjust padding for sections */
+    section {
+        padding-top: 80px; /* Reduce top padding */
+        padding-bottom: 80px; /* Reduce bottom padding */
+    }
+
+    /* Adjust font size and margins for headings */
+    h1 {
+        font-size: 24px; /* Reduce font size */
+        margin-bottom: 20px; /* Reduce bottom margin */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduce font size */
+        margin-bottom: 15px; /* Reduce bottom margin */
+    }
+
+    h3 {
+        font-size: 18px; /* Reduce font size */
+        margin-bottom: 10px; /* Reduce bottom margin */
+    }
+
+    /* Adjust font size and margins for paragraphs */
+    p {
+        font-size: 16px; /* Reduce font size */
+        margin-bottom: 15px; /* Reduce bottom margin */
+    }
+
+    /* Adjust padding for buttons */
+    .btn {
+        padding: 12px 24px; /* Reduce padding */
+    }
+
+    /* Adjust image size */
+    img {
+        max-width: 100%; /* Ensure images don't exceed screen width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Adjust navbar padding */
+    .navbar {
+        padding-top: 10px; /* Reduce top padding */
+        padding-bottom: 10px; /* Reduce bottom padding */
+    }
+
+    /* Adjust section padding for home */
+
+
+    /* Adjust margins for home content */
+    #home h1 {
+        margin-bottom: 15px; /* Reduce bottom margin */
+    }
+
+    #home p {
+        margin-bottom: 15px; /* Reduce bottom margin */
+    }
+
+    /* Ensure images in home fit within screen width */
+    #home img {
+        width: 100%; /* Adjust image width */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 0; /* Remove border radius */
+    }
+
+
     
 }
 
@@ -248,8 +313,9 @@ section {
     font-size: 1.2rem;
     color: #fff; /* Adjust this to your preferred text color */
     margin-bottom: 0.5rem; /* Space between list items */
-    font-family: "Inter", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dela Gothic One', 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 /* Footer */
 footer {
@@ -261,10 +327,13 @@ footer {
 .footer-top {
     padding-bottom: 30px;
     border-bottom: 1px solid #222;
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
 }
 
 .footer-top .col-lg-4 {
     margin-bottom: 30px;
+    flex: 0 0 30%; /* Adjust width for 3 columns */
 }
 
 .footer-top h3 {
@@ -301,53 +370,21 @@ footer {
     background: #0066cc;
 }
 
-/* Responsive adjustments */
-@media (max-width: 1200px) {
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .footer-top {
+        flex-wrap: wrap; /* Allow items to wrap onto the next line */
+        justify-content: flex-start; /* Align items to the start */
+    }
+
     .footer-top .col-lg-4 {
-        flex: 0 0 100%;
-        max-width: 100%;
-        text-align: center;
+        flex: 0 0 100%; /* Set width to 100% for single column on smaller screens */
         margin-bottom: 20px;
     }
 }
 
-@media (max-width: 768px) {
-    section {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    .navbar-brand {
-        font-size: 24px;
-    }
-    .btn {
-        padding: 12px 24px;
-    }
-    .service img {
-        height: 250px;
-    }
-}
 
-@media (max-width: 576px) {
-    .footer-top {
-        padding-bottom: 20px;
-    }
-    .footer-top h3 {
-        font-size: 16px;
-    }
-    .footer-top p {
-        font-size: 12px;
-    }
-    .footer-top .social-links a {
-        height: 30px;
-        width: 30px;
-        line-height: 30px;
-        font-size: 14px;
-    }
 
-    .service {
-        margin-bottom: 40px;
-    }
-}
 
 /* Flexbox adjustments for services section */
 @media (max-width: 992px) {
