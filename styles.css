@@ -68,7 +68,7 @@ section {
 /* Home */
 #home {
     background: linear-gradient(to right, #a1a8d4, rgba(27, 31, 52, 0.5));
-    min-height: 90vh;
+    min-height: 100vh;
     background-position: center;
     background-size: cover;
     
@@ -146,6 +146,10 @@ section {
         height: auto;
         margin-top: 130px;
         border-radius: 10px;
+    }
+
+    #home { 
+        min-height: 100vh;
     }
 }
 
