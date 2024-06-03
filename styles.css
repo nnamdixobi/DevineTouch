@@ -131,13 +131,20 @@ section {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+
+
+    #home {
+        
+    }
+
     #home .row {
         flex-direction: column;
         text-align: center;
     }
 
-    #home .col-lg-6, #home .col-md-6 {
+    #home .col-lg-6,
+    #home .col-md-6 {
         margin-bottom: 20px;
     }
 
@@ -148,17 +155,10 @@ section {
         border-radius: 10px;
     }
 
-    #home { 
-        max-height: 100vh;
+    #home .container {
+        height: 100%;
+        margin-top: -100px;
     }
-
-    #home h1 {
-        margin-bottom: 5px;
-    }
-
-    
-
-    
 }
 
 
