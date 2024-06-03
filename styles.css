@@ -157,7 +157,7 @@ section {
 
     #home .container {
         height: 100%;
-        margin-top: -100px;
+        margin-top: -135px;
     }
 }
 
@@ -258,18 +258,17 @@ section {
 footer {
     background-color: #111;
     color: #fff;
-    padding: 60px 0;
+    
 }
 
 .footer-top {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #222;
+    padding: 150px 0;
+    
     display: flex;
     justify-content: space-between; /* Space items evenly */
 }
 
 .footer-top .col-lg-4 {
-    margin-bottom: 30px;
     flex: 0 0 30%; /* Adjust width for 3 columns */
 }
 
@@ -312,13 +311,21 @@ footer {
     .footer-top {
         flex-wrap: wrap; /* Allow items to wrap onto the next line */
         justify-content: flex-start; /* Align items to the start */
+        padding-bottom: 10px;
+    }
+
+    footer {
+    height: fit-content;
     }
 
     .footer-top .col-lg-4 {
-        flex: 0 0 100%; /* Set width to 100% for single column on smaller screens */
+        flex: 0 0 30%; /* Set width to 100% for single column on smaller screens */
         margin-bottom: 20px;
     }
 }
+
+
+
 
 
 
