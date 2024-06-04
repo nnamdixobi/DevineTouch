@@ -66,6 +66,48 @@ section {
     text-align: center;
 }
 
+/* Book Appointment */
+#book-appointment {
+    background: linear-gradient(to right, #a1a8d4, rgba(27, 31, 52, 0.5));
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+#book-appointment .navy-icon {
+    color: black;
+}
+
+#book-appointment h2 {
+    margin-top: 50px;
+    margin-bottom: 24px;
+    color: var(--white); /* Add this line if you want the text color to be consistent with the home section */
+}
+
+#book-appointment p {
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: var(--white); /* Add this line if you want the text color to be consistent with the home section */
+}
+
+#book-appointment .btn {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.appointment-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between the links */
+}
+
+
 
 /* Home */
 #home {
