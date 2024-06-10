@@ -1,3 +1,8 @@
+window.addEventListener('load', function() {
+    // Ensure the slider starts at the first image when the page loads
+    goToSlide(0);
+});
+
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slider img');
 const totalSlides = slides.length;
